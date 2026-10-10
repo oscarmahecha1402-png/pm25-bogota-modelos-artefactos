@@ -1,0 +1,47 @@
+{
+  "arquitectura": {
+    "activacion_ff": "gelu",
+    "d_ff": 128,
+    "d_model": 32,
+    "dropout": 0.05,
+    "n_bloques": 3,
+    "n_cabezas": 4,
+    "normalizacion": "LayerNormalization epsilon=1e-6"
+  },
+  "entrenamiento": {
+    "amsgrad": false,
+    "beta_1": 0.9,
+    "beta_2": 0.999,
+    "epsilon_adam": 1e-07,
+    "learning_rate": 0.001754899435311937,
+    "max_epocas": 30,
+    "min_delta": 0.0,
+    "monitor": "val_mae_presencia",
+    "optimizador": "Adam",
+    "paciencia": 5,
+    "restore_best_weights": true,
+    "semilla": 42,
+    "tamano_lote": 16
+  },
+  "estructura": {
+    "estaciones": 19,
+    "horizontes": [
+      1,
+      6,
+      24
+    ],
+    "salida": [
+      3,
+      19
+    ],
+    "variables": 526,
+    "ventana": 168
+  },
+  "origen": {
+    "presupuesto_i2_epocas": 20,
+    "seccion": "I2",
+    "trial": 12,
+    "valor_objetivo_i2": 5.814733505249023
+  },
+  "politica_memoria": "telemetria_no_bloqueante_sin_modificar_memory_growth"
+}

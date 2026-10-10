@@ -1,0 +1,27 @@
+{
+  "batch_size": 32,
+  "capas_lstm": 1,
+  "clipnorm": 100.0,
+  "dropout": 0.05706512422224794,
+  "guardado_incremental": true,
+  "horizontes": [
+    1,
+    6,
+    24
+  ],
+  "learning_rate": 0.001464392460297916,
+  "max_epocas": 50,
+  "modelos_especializados": 19,
+  "modelos_globales": 1,
+  "modo_monitor": "min",
+  "monitor": "val_mae_presencia",
+  "optimizador": "Adam",
+  "paciencia": 5,
+  "particion_prueba_accedida": false,
+  "ram_guardia_epoca_gib": 1.5,
+  "ram_guardia_modelo_gib": 2.5,
+  "semilla": 42,
+  "trial_l2": 13,
+  "unidades_lstm": 256,
+  "ventana_historica": 168
+}

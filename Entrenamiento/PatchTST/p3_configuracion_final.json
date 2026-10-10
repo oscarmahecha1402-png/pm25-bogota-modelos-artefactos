@@ -1,0 +1,23 @@
+{
+  "patch_len": 16,
+  "stride": 8,
+  "d_model": 64,
+  "heads": 4,
+  "blocks": 3,
+  "d_ff": 256,
+  "dropout": 0.16073240522242754,
+  "learning_rate": 0.0001423638128723575,
+  "batch_size": 16,
+  "num_parches": 20,
+  "trial_number": 6,
+  "valor_objetivo": 5.9557204246521,
+  "max_epocas_busqueda": 20,
+  "paciencia_busqueda": 3,
+  "semilla": 42,
+  "max_epocas": 30,
+  "paciencia": 5,
+  "monitor": "val_mae_presencia",
+  "optimizador": "Adam",
+  "criterio_metricas": "solo posiciones con presencia de valor medido",
+  "recorte_predicciones": "max(pred, 0) después de contar negativas"
+}
